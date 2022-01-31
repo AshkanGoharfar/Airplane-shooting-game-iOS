@@ -17,8 +17,9 @@ var screenHeight: CGFloat?
 
 class GameScene: SKScene {
     
-    // instance variables
+    // instance variables, their priority is based on their level
     var ocean: Ocean?
+    var island: Island?
     var plane: Plane?
     
     override func didMove(to view: SKView) {
@@ -31,6 +32,11 @@ class GameScene: SKScene {
         ocean = Ocean() // allocate memory
         ocean?.position = CGPoint(x: 0, y: 773)
         addChild(ocean!) // add the ocean to the scene
+        
+        // add island to the scene
+        island = Island() // allocate memory
+//        island?.position = CGPoint(x: 0, y: 773)
+        addChild(island!) // add the island to the scene
         
         // add plane to the scene
         plane = Plane() // allocate memory
@@ -71,6 +77,7 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
         ocean?.Update()
+        island?.Update()
         plane?.Update()
     }
 }

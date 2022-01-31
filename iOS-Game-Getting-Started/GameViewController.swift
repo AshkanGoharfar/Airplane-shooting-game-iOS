@@ -26,8 +26,10 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            
+            // these varibales were commneted to remove the details at right down side of the screen
+            //view.showsFPS = true
+            //view.showsNodeCount = true
         }
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4149A44527A758CF009CD789 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4149A44427A758CF009CD789 /* Island.swift */; };
 		416E65F3279F43EC00E1C34E /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 416E65BA279F43EC00E1C34E /* bullet.png */; };
 		416E65F4279F43EC00E1C34E /* plane3.png in Resources */ = {isa = PBXBuildFile; fileRef = 416E65BB279F43EC00E1C34E /* plane3.png */; };
 		416E65F5279F43EC00E1C34E /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 416E65BC279F43EC00E1C34E /* plane2.png */; };
@@ -77,6 +78,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4149A44427A758CF009CD789 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		416E65BA279F43EC00E1C34E /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		416E65BB279F43EC00E1C34E /* plane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane3.png; sourceTree = "<group>"; };
 		416E65BC279F43EC00E1C34E /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane2.png; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			children = (
 				416E6631279F602C00E1C34E /* Ocean.swift */,
 				416E663327A0B93000E1C34E /* Plane.swift */,
+				4149A44427A758CF009CD789 /* Island.swift */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 			files = (
 				416E662D279F4A0B00E1C34E /* GameObject.swift in Sources */,
 				416E662F279F517A00E1C34E /* GameProtocol.swift in Sources */,
+				4149A44527A758CF009CD789 /* Island.swift in Sources */,
 				41779053279E1BBC0020C204 /* GameScene.swift in Sources */,
 				41779055279E1BBC0020C204 /* GameViewController.swift in Sources */,
 				416E6632279F602C00E1C34E /* Ocean.swift in Sources */,

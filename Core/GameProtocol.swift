@@ -5,6 +5,8 @@
 //  Created by Ashkan Goharfar on 11/4/1400 AP.
 //
 
+// This class is making contract between code and the classes that we are using
+
 protocol GameProtocol
 {
     // Prevent an object from leaving the screen or detect that it has done so.
