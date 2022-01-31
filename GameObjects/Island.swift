@@ -5,8 +5,6 @@
 //  Created by Ashkan Goharfar on 11/10/1400 AP.
 //
 
-import Foundation
-
 import GameplayKit
 import SpriteKit
 
