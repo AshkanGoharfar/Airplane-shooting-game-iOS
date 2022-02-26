@@ -22,14 +22,17 @@ class Island: GameObject
     }
     
     // LifeCycle Functions
-    override func CheckBounds() {
+    override func CheckBounds()
+    {
         // if it is then the motion is move so we need to call reset method
-        if(position.y <= -730){
+        if(position.y <= -730)
+        {
             Reset()
         }
     }
     
-    override func Reset() {
+    override func Reset()
+    {
         position.y = 730
         
         // get a psudo random number -313 to 313
@@ -39,10 +42,13 @@ class Island: GameObject
     }
     
     // Initialization
-    override func Start() {
+    override func Start()
+    {
         
         // zPosition provide an opportunity to set different layers on the screen, for example: zPosition = 0 could be background and zPostion1 could be reels of slot machine
-        zPosition = 0
+        Reset()
+        zPosition = 1
+//        zPosition = 0
         verticalSpeed = 5.0
     }
     

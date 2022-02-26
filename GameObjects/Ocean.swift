@@ -24,12 +24,14 @@ class Ocean: GameObject
     // LifeCycle Functions
     override func CheckBounds() {
         // if it is then the motion is move so we need to call reset method
-        if(position.y <= -773){
+        if(position.y <= -773)
+        {
             Reset()
         }
     }
     
-    override func Reset() {
+    override func Reset()
+    {
         position.y = 773
     }
     
@@ -41,7 +43,8 @@ class Ocean: GameObject
         verticalSpeed = 5.0
     }
     
-    override func Update() {
+    override func Update()
+    {
         Move()
         CheckBounds()
     }
