@@ -77,6 +77,7 @@
 		4196B9C027C9CBA600EF7636 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9BD27C9CBA600EF7636 /* engine.mp3 */; };
 		4196B9C527C9CBC400EF7636 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9C327C9CBC400EF7636 /* thunder.mp3 */; };
 		4196B9C627C9CBC400EF7636 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9C427C9CBC400EF7636 /* yay.mp3 */; };
+		4196B9C827C9D80300EF7636 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196B9C727C9D80300EF7636 /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +152,7 @@
 		4196B9BD27C9CBA600EF7636 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
 		4196B9C327C9CBC400EF7636 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		4196B9C427C9CBC400EF7636 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		4196B9C727C9D80300EF7636 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				4115618F27B494EC00076B89 /* CollisionManager.swift */,
+				4196B9C727C9D80300EF7636 /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				41779055279E1BBC0020C204 /* GameViewController.swift in Sources */,
 				416E6632279F602C00E1C34E /* Ocean.swift in Sources */,
 				4177904D279E1BBC0020C204 /* AppDelegate.swift in Sources */,
+				4196B9C827C9D80300EF7636 /* ScoreManager.swift in Sources */,
 				416E663427A0B93000E1C34E /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +617,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,6 +646,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

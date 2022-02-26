@@ -10,6 +10,11 @@ import GameplayKit
 
 class CollisionManager
 {
+    // ICE3 last part
+    // As I call the ScoreManager object to change score and live value, but they didn't change, we call the gameviewcontroller object here to call it in GameView Controller ***
+    // So, in general, we made a global reference to the gameviewcontroller
+    public static var gameViewController: GameViewController?
+    
     // Utillity Function
     public static func SquaredDistance(point1: CGPoint, point2: CGPoint) -> CGFloat
     {
@@ -35,11 +40,25 @@ class CollisionManager
                 {
                 case "island":
                     // print("Colliding with Island")
+                    
+                    // calculate the score when the plane colide with island
+                    ScoreManager.Score += 100
+                    
+                    // ICE 3 last part, call update score here to update collision manager
+                    gameViewController?.updateScoreLabel()
+                    
                     // make sounds when the plane colide with island
                     scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     break
                 case "cloud":
                     // print("Colliding with Cloud")
+                    
+                    // calculate the lives when the plane colide with island
+                    ScoreManager.Lives -= 1
+                    
+                    // ICE 3 last part, call update lives here to update collision manager
+                    gameViewController?.updateLivesLabel()
+                    
                     // make sounds when the plane colide with cloud
                     scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     break
