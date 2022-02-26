@@ -3,7 +3,7 @@
 //  iOS-Game-Getting-Started
 //
 //  Created by Ashkan Goharfar on 11/4/1400 AP.
-//
+//  ICE1
 
 // This class is making contract between code and the classes that we are using
 

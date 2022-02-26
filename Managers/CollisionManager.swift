@@ -3,7 +3,7 @@
 //  iOS-Game-Getting-Started
 //
 //  Created by Ashkan Goharfar on 2022-02-09.
-//
+//  ICE3
 
 import SpriteKit
 import GameplayKit
@@ -34,10 +34,14 @@ class CollisionManager
                 switch (object2.name)
                 {
                 case "island":
-                    print("Colliding with Island")
+                    // print("Colliding with Island")
+                    // make sounds when the plane colide with island
+                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     break
                 case "cloud":
-                    print("Colliding with Cloud")
+                    // print("Colliding with Cloud")
+                    // make sounds when the plane colide with cloud
+                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     break
                 default:
                     break

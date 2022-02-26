@@ -53,9 +53,6 @@
 		416E661B279F43EC00E1C34E /* explosion5.png in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E2279F43EC00E1C34E /* explosion5.png */; };
 		416E661C279F43EC00E1C34E /* life.wav in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E4279F43EC00E1C34E /* life.wav */; };
 		416E661D279F43EC00E1C34E /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E5279F43EC00E1C34E /* explosion.mp3 */; };
-		416E661E279F43EC00E1C34E /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E6279F43EC00E1C34E /* thunder.ogg */; };
-		416E661F279F43EC00E1C34E /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E7279F43EC00E1C34E /* yay.ogg */; };
-		416E6620279F43EC00E1C34E /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E8279F43EC00E1C34E /* engine.ogg */; };
 		416E6621279F43EC00E1C34E /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 416E65E9279F43EC00E1C34E /* coin.wav */; };
 		416E6622279F43EC00E1C34E /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 416E65EA279F43EC00E1C34E /* bullet.mp3 */; };
 		416E6623279F43EC00E1C34E /* textureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 416E65EC279F43EC00E1C34E /* textureAtlas.png */; };
@@ -77,6 +74,9 @@
 		41779058279E1BBC0020C204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41779056279E1BBC0020C204 /* Main.storyboard */; };
 		4177905A279E1BBF0020C204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41779059279E1BBF0020C204 /* Assets.xcassets */; };
 		4177905D279E1BBF0020C204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4177905B279E1BBF0020C204 /* LaunchScreen.storyboard */; };
+		4196B9C027C9CBA600EF7636 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9BD27C9CBA600EF7636 /* engine.mp3 */; };
+		4196B9C527C9CBC400EF7636 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9C327C9CBC400EF7636 /* thunder.mp3 */; };
+		4196B9C627C9CBC400EF7636 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4196B9C427C9CBC400EF7636 /* yay.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,9 +126,6 @@
 		416E65E2279F43EC00E1C34E /* explosion5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion5.png; sourceTree = "<group>"; };
 		416E65E4279F43EC00E1C34E /* life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = life.wav; sourceTree = "<group>"; };
 		416E65E5279F43EC00E1C34E /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
-		416E65E6279F43EC00E1C34E /* thunder.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = thunder.ogg; sourceTree = "<group>"; };
-		416E65E7279F43EC00E1C34E /* yay.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = yay.ogg; sourceTree = "<group>"; };
-		416E65E8279F43EC00E1C34E /* engine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = engine.ogg; sourceTree = "<group>"; };
 		416E65E9279F43EC00E1C34E /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
 		416E65EA279F43EC00E1C34E /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
 		416E65EC279F43EC00E1C34E /* textureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textureAtlas.png; sourceTree = "<group>"; };
@@ -151,6 +148,9 @@
 		41779057279E1BBC0020C204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41779059279E1BBF0020C204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4177905C279E1BBF0020C204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4196B9BD27C9CBA600EF7636 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		4196B9C327C9CBC400EF7636 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		4196B9C427C9CBC400EF7636 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,11 +235,11 @@
 		416E65E3279F43EC00E1C34E /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				4196B9C327C9CBC400EF7636 /* thunder.mp3 */,
+				4196B9C427C9CBC400EF7636 /* yay.mp3 */,
+				4196B9BD27C9CBA600EF7636 /* engine.mp3 */,
 				416E65E4279F43EC00E1C34E /* life.wav */,
 				416E65E5279F43EC00E1C34E /* explosion.mp3 */,
-				416E65E6279F43EC00E1C34E /* thunder.ogg */,
-				416E65E7279F43EC00E1C34E /* yay.ogg */,
-				416E65E8279F43EC00E1C34E /* engine.ogg */,
 				416E65E9279F43EC00E1C34E /* coin.wav */,
 				416E65EA279F43EC00E1C34E /* bullet.mp3 */,
 			);
@@ -393,21 +393,21 @@
 				416E6604279F43EC00E1C34E /* smallexplosion5.png in Resources */,
 				416E661C279F43EC00E1C34E /* life.wav in Resources */,
 				416E661D279F43EC00E1C34E /* explosion.mp3 in Resources */,
-				416E661E279F43EC00E1C34E /* thunder.ogg in Resources */,
 				416E65F6279F43EC00E1C34E /* plane1.png in Resources */,
 				416E65FD279F43EC00E1C34E /* ocean.gif in Resources */,
 				416E6619279F43EC00E1C34E /* explosion6.png in Resources */,
 				416E6616279F43EC00E1C34E /* explosion3.png in Resources */,
+				4196B9C027C9CBA600EF7636 /* engine.mp3 in Resources */,
 				416E661A279F43EC00E1C34E /* explosion4.png in Resources */,
 				416E660F279F43EC00E1C34E /* smallexplosion1.png in Resources */,
 				416E660D279F43EC00E1C34E /* coin03.png in Resources */,
 				416E662A279F45EC00E1C34E /* ocean.png in Resources */,
 				416E65FA279F43EC00E1C34E /* planeflash2.png in Resources */,
+				4196B9C527C9CBC400EF7636 /* thunder.mp3 in Resources */,
 				416E65F7279F43EC00E1C34E /* backButton.png in Resources */,
 				416E6628279F43EC00E1C34E /* Dock51.ttf in Resources */,
 				416E660B279F43EC00E1C34E /* smallexplosion2.png in Resources */,
 				416E65FE279F43EC00E1C34E /* coin08.png in Resources */,
-				416E661F279F43EC00E1C34E /* yay.ogg in Resources */,
 				416E65FF279F43EC00E1C34E /* coin09.png in Resources */,
 				416E6610279F43EC00E1C34E /* nextButton.png in Resources */,
 				416E6627279F43EC00E1C34E /* dock51.woff2 in Resources */,
@@ -420,6 +420,7 @@
 				416E65F3279F43EC00E1C34E /* bullet.png in Resources */,
 				416E65FB279F43EC00E1C34E /* clickMeButton.png in Resources */,
 				416E6603279F43EC00E1C34E /* smallexplosion4.png in Resources */,
+				4196B9C627C9CBC400EF7636 /* yay.mp3 in Resources */,
 				4177904F279E1BBC0020C204 /* GameScene.sks in Resources */,
 				4177905A279E1BBF0020C204 /* Assets.xcassets in Resources */,
 				416E6608279F43EC00E1C34E /* coin06.png in Resources */,
@@ -429,7 +430,6 @@
 				416E6601279F43EC00E1C34E /* coin10.png in Resources */,
 				416E6622279F43EC00E1C34E /* bullet.mp3 in Resources */,
 				416E660E279F43EC00E1C34E /* coin01.png in Resources */,
-				416E6620279F43EC00E1C34E /* engine.ogg in Resources */,
 				416E6609279F43EC00E1C34E /* cloud.png in Resources */,
 				416E65F4279F43EC00E1C34E /* plane3.png in Resources */,
 				416E65F8279F43EC00E1C34E /* plane.png in Resources */,

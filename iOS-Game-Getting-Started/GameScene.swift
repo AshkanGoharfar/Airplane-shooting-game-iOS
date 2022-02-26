@@ -3,7 +3,7 @@
 //  iOS-Game-Getting-Started
 //
 //  Created by Ashkan Goharfar on 11/3/1400 AP.
-//
+//  ICE1
 
 import UIKit
 import AVFoundation
@@ -50,6 +50,30 @@ class GameScene: SKScene {
             clouds.append(cloud)
             addChild(clouds[index])
         }
+        
+        // ICE3
+        // Sounds, we want to load some sounds
+        let engineSound = SKAudioNode(fileNamed: "engine.mp3")
+        self.addChild(engineSound)
+        engineSound.autoplayLooped = true
+        
+        // Preload / Prewarm impulse
+        // We need this part because we have to load a presound to scene before we play the sound, So technicaly is a way to prepare the sounds
+        do
+        {
+            let sounds:[String] = ["thunder", "yay"]
+            for sound in sounds
+            {
+                let path: String = Bundle.main.path(forResource: sound, ofType: "mp3")!
+                let url: URL = URL(fileURLWithPath: path)
+                let player: AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
+                player.prepareToPlay()
+            }
+        }
+        catch
+        {
+            
+        }
 
 
     }
@@ -89,6 +113,8 @@ class GameScene: SKScene {
         ocean?.Update()
         island?.Update()
         plane?.Update()
+        
+        // ICE3 collision manager
         
         // update each cloud in clouds
         for cloud in clouds
